@@ -77,3 +77,11 @@ DB_USER = "postgres"
 DB_PWD = "admin"
 
 Modificar estos valores según la configuración local antes de ejecutar el proyecto.
+
+# Cómo Ejecutar
+1. Crear una base de datos PostgreSQL llamada:
+RestoFreaky
+2. Configurar usuario y contraseña en:
+MainFrame.java
+3. Ejecutar el proyecto desde NetBeans o cualquier IDE compatible con Java.
+4. El sistema creará automáticamente las tablas necesarias.
