@@ -61,9 +61,12 @@ Este proyecto fue desarrollado con fines educativos para aplicar conceptos funda
 - filtros por fechas
 - consultas parametrizadas
 
-# Estructura General
-/src
- ├── MainFrame.java
- ├── MainFrame.form
- └── Archivos/
-      └── Inserta_Datos.sql.txt
+# Configuración de la Base de Datos
+El proyecto utiliza PostgreSQL.
+Por defecto:
+
+DB_NAME = "RestoFreaky"
+DB_USER = "postgres"
+DB_PWD = "admin"
+
+Modificar estos valores según la configuración local antes de ejecutar el proyecto.
